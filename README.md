@@ -5,5 +5,6 @@ DenoでシンプルなBBS
 ## プログラム
 フロントエンド [static/index.html](static/index.html)  
 バックエンド [bbs.js](bbs.js)  
+[解説記事](https://fukuno.jig.jp/3169)  
 
  
