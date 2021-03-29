@@ -2,7 +2,7 @@ import { Server } from "https://js.sabae.cc/Server.js";
 import { jsonfs } from "https://js.sabae.cc/jsonfs.js";
 
 const datafn = "data.json";
-const data = jsonfs.read(datafn) || [];
+let data = jsonfs.read(datafn) || [];
 
 class MyServer extends Server {
   api(path, req) {
